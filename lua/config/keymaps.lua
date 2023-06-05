@@ -6,7 +6,7 @@ keymap.set("i", "jj", "<Esc>")
 
 local crates = require("crates")
 local opts = { silent = true }
-keymap.leader = " "
+vim.g.mapleader = " "
 keymap.set("n", "<leader>ct", crates.toggle, opts)
 keymap.set("n", "<leader>cr", crates.reload, opts)
 
