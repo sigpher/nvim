@@ -5,3 +5,4 @@ local keymap = vim.keymap
 keymap.set("i", "jj", "<Esc>")
 keymap.set("i", "ii", "<Esc>f)i,")
 keymap.set("i", ";;", "<Esc>A;<Esc>")
+keymap.set("i", ",,", "<Esc>A,<Esc>")
